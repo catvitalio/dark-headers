@@ -13,6 +13,22 @@ spotify
 keeweb
 atom
 ```
+# Installation
+To install on your computer run `install.sh` as root:
+```bash
+chmod +x install.sh
+sudo ./install.sh
+```
+For startup, you need to enable the systemd service:
+```bash
+systemctl --user enable --now dark-headers.service
+```
+# Uninstallation
+To uninstall, use `uninstall.sh`:
+```bash
+chmod +x uninstall.sh
+sudo ./uninstall.sh
+```
 # Dependencies
 `xorg-xprop`
 
