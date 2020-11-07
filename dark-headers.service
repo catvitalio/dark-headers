@@ -1,0 +1,10 @@
+[Unit]
+Description=Set dark window headers on a per-application basis
+
+[Service]
+ExecStart=/usr/bin/dark-headers
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
