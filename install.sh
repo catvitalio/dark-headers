@@ -6,4 +6,4 @@ cd $DIR
 cp dark_headers.py /usr/bin/dark-headers
 chmod +x /usr/bin/dark-headers
 
-cp dark-headers.service /usr/lib/systemd/user/
+cp dark-headers.service /etc/systemd/user/
